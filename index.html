@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ficha Personal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light">
+  <div class="page">
+    <header class="topbar">
+      <h1>Ficha Personal</h1>
+      <button id="themeToggle" aria-label="Cambiar tema">
+        🌙
+      </button>
+    </header>
+
+    <main class="card">
+      <!-- Foto y nombre -->
+      <section class="profile">
+        <div class="avatar">
+          <img src="images/foto.jpeg" alt="Foto personal">
+        </div>
+        <h2 class="name">Martín Gueler</h2>
+      </section>
+
+      <!-- Datos -->
+      <section class="info-grid">
+        <div class="info-box">
+          <p class="label">Nombre Completo</p>
+          <p class="value">Martín Gueler</p>
+        </div>
+        <div class="info-box">
+          <p class="label">Nro de Legajo</p>
+          <p class="value">1220964</p>
+        </div>
+        <div class="info-box">
+          <p class="label">Materia</p>
+          <p class="value">Diseño y desarrollo Web</p>
+        </div>
+        <div class="info-box">
+          <p class="label">Curso</p>
+          <p class="value">536117</p>
+        </div>
+      </section>
+
+      <!-- Proyectos -->
+      <section class="projects">
+        <article class="project-card">
+          <div class="media">
+            <img src="images/logo_simuladores.jpeg" alt="Fan page" class="logo-img">
+          </div>          
+          <h3>Fan page</h3>
+          <p>
+            <a href="https://github.com/guelermartinm/trabajofanpage" target="_blank" rel="noopener noreferrer">
+              Repositorio
+            </a>
+          </p>          
+          <p><a href="https://www.figma.com/board/LpPmr5BZfdE6emNBlXNWto/Untitled?node-id=1-12" target="_blank" rel="noopener noreferrer">Documentación</a></p>
+        </article>
+        <article class="project-card">
+          <div class="media">
+            <img src="images/bullbenny.logo.webp" alt="Local BullBenny" class="logo-img">
+          </div>          
+          <h3>Local comercial</h3>
+          <p>
+            <a href="https://github.com/guelermartinm/tp_pagina" target="_blank" rel="noopener noreferrer">
+              Repositorio
+            </a>
+          </p>
+          <p><a href="https://www.figma.com/design/tfTqfClrTHSIGrGQmrVYO8/TP-Desarrollo-web?node-id=2-3" target="_blank" rel="noopener noreferrer">Documentación</a></p>
+        </article>
+        <article class="project-card">
+          <div class="media">
+            <img src="images/maralina_logo.png" alt="Maralina Mall" class="logo-img"> 
+          </div>
+          <h3>Centro comercial</h3>
+          <p>
+            <a href="https://github.com/guelermartinm/maralina_mall" target="_blank" rel="noopener noreferrer">
+              Repositorio
+            </a>
+          </p>
+          <p><a href="docs/docs_centro_comercial.pdf" target="_blank" rel="noopener noreferrer">Documentación</a></p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      © 2025 Todos los derechos reservados
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
